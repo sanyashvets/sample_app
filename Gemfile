@@ -7,12 +7,12 @@ gem 'rails', '4.0.2'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails'
 end
 
 group :test do
-  gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.1.0'
+  gem 'selenium-webdriver'
+  gem 'capybara'
 end
 
 # Use SCSS for stylesheets
@@ -35,6 +35,9 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+gem 'minitest'
+gem 'test-unit'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
