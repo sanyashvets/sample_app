@@ -11,8 +11,9 @@ group :development, :test do
 end
 
 group :test do
-  gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'libnotify'
 end
 
 # Use SCSS for stylesheets
