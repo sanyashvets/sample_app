@@ -5,6 +5,8 @@ ruby '2.3.0'
 gem 'rails', '4.0.2'
 # Bootstrap
 gem 'bootstrap-sass', '2.3.2.0'
+# Encrypt password gem
+gem 'bcrypt-ruby', '3.1.2'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
